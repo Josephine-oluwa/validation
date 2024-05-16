@@ -12,7 +12,7 @@ const Header = () => {
       <span className="ml-3 text-4xl font-medium">Cyrus</span>
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center  text-base text-[20px] justify-center">
-      <a className="mr-10 hover:text-[#e55809]">About us</a>
+      <a href="../../pages/Page.tsx" className="mr-10 hover:text-[#e55809] " >About us</a>
       <a className="mr-10 hover:text-[#e55809]">What we do</a>
       <a className="mr-10 hover:text-[#e55809]">Portfolio</a>
       <a className="mr-10 hover:text-[#e55809]">Blogs</a>

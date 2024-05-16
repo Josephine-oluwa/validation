@@ -1,3 +1,4 @@
+import NewsLetter from "../Screen/NewsLetter"
 
 
 const Gallery = () => {
@@ -72,7 +73,9 @@ const Gallery = () => {
       </div>
     </div>
   </div>
+  <NewsLetter/>
 </section>
+
     </div>
   )
 }

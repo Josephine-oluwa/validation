@@ -1,3 +1,6 @@
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdMarkEmailUnread } from "react-icons/md";
+
 const Header = () => {
     return (
       <div>
@@ -52,38 +55,11 @@ const Header = () => {
         <h2 className="title-font font-medium text-[#FD7E14]  tracking-widest text-lg mb-3">Contact Information</h2>
         <nav className="list-none mb-10 ">
           <li>
-          <svg
-  xmlns="http://www.w3.org/2000/svg"
-  className="h-6 w-6 text-white hover:text-[#FD7E14]"  
-  fill="none"
-  viewBox="0 0 24 24"
-  stroke="currentColor"
->
-  <path
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="2"
-    d="M16 12H8m0 0h.01M8 12v.01m8-.01v.01M21 8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2V8z"
-  />
-</svg>
-
+          <MdMarkEmailUnread className="text-[25px]" />
             <a className="text-white hover:text-gray-800 text-[20px] ">OluwafemiJosephine5@gmail.com</a>
           </li>
           <li>
-          <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8 text-white hover:text-[#FD7E14] transition-colors duration-300"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M3 10l1 2m1 2a10 10 0 0010 10l2-1 2-1a3 3 0 00-.9-5.8l-2-.4a3 3 0 00-3.6 1.8L11 17a10 10 0 01-7-7l2-1.5a3 3 0 001.8-3.6l-.4-2A3 3 0 003 10z"
-      />
-    </svg>
+          <FaPhoneAlt  className="text-[25px]"/>
             <a className="text-white hover:text-gray-800 text-[20px]">07030709482</a>
           </li>
           
